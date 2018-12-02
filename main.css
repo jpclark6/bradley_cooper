@@ -1,0 +1,109 @@
+body {
+  max-width: 90%;
+  margin: auto;
+  background-color: lightgray;
+}
+
+#grid {
+  display: grid;
+  grid-template-columns: 220px 220px 220px 220px 220px;
+  grid-template-rows: 220px 220px 220px;
+  /* height: 100%; */
+  /* width: 75%; */
+  font-family: "Arial", Arial, sans-serif;
+  color: white;
+  margin: auto;
+  padding: 15px;
+}
+
+#grid img {
+  width: 60px;
+  height: 40px;
+}
+
+.tile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#name {
+  grid-column: 1/3;
+  grid-row: 1/2;
+  background-color: #34bc7a;
+  font-weight: bold;
+}
+
+#name h1{
+  font-size: 28px;
+  padding: 0 0 20px 0;
+}
+
+#name button{
+  background-color: transparent;
+  color: white;
+  border: 2px solid white; /* Green */
+  height: 40px;
+  width: 120px;
+}
+
+#name p {
+  font-size: 15px;
+}
+
+#name .info {
+  display: block;
+}
+
+#profile {
+  grid-column: 3/4;
+  grid-row: 1/2;
+  background-color: #ff9f01;
+}
+
+#photo {
+  grid-column: 4/6;
+  grid-row: 1/4;
+}
+
+#experience {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  background-color: #1f8bc4;
+}
+
+#social-menu {
+  grid-column: 1/2;
+  grid-row: 3/4;
+  background-color: #f86926;
+}
+
+#photo img {
+  height: 100%;
+  width: auto;
+  object-fit: contain;
+}
+
+#education {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  background-color: #f15a49;
+}
+
+#blog {
+  grid-column: 3/4;
+  grid-row: 2/3;
+  background-color: #34bc7a;
+}
+
+#contact {
+  grid-column: 2/3;
+  grid-row: 3/4;
+  background-color: #1f8bc4;
+}
+
+#portfolio {
+  grid-column: 3/4;
+  grid-row: 3/4;
+  background-color: #f86926;
+}
